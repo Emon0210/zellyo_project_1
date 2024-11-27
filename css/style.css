@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Global CSS */
+
+*{
+margin: 0px;
+padding: 0px;
+}
+.body {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+}
+h1{
+font-size: 44px;
+font-weight: 700;
+}
+h2{
+font-size: 32px;
+  font-weight: 700;
+}
+h3{
+font-size: 28px;    
+}
+h4{
+font-size: 20px;    
+}
+p{
+    font-size: 13px;    
+}
+.cp-60{
+    padding: 60px 0px;
+}
+.cp-80{
+padding: 80px 0px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+text-decoration: none;
+}
+/* Global CSS  End*/
+  .header {
+    background: #f9f9f9;
+    padding: 16px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-nav {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+  }
+  .logo {
+    width: 228px;
+    height: auto;
+  }
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .nav-link {
+    color: #000;
+    text-decoration: none;
+  } 
+  .contact-btn {
+    border-radius: 22px;
+    background: rgba(128,0,0,0.04);
+    border: 2px solid #800000;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 12px;
+    color: #800000;
+    text-decoration: none;
+  } 
+  .phone-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    padding: 2px 0px 0px 0px;
+}
+.hero-section{
+    background: url(../img/bg.png) center center no-repeat ;
+    background-size: cover;
+    height: 100vh;
+}
+.banner_txt_box{
+    margin-top: 120px;
+    color: #ffffff;
+    background: #000000ef;
+    opacity: 0.7;
+    margin-left: -30px;
+    border-radius: 10px;
+}
+.b_card{
+    margin-left: 30px;
+    padding: 20px 0px 15px 25px;
+    height: 60vh;
+    width: 90%;
+}
+.bl_text{
+margin-left: -30px;
+font-size: 13px;
+}
+.bl_text i{
+padding-right: 10px;
+line-height: 30px;
+ }
+ .card-section{
+    margin-top: 80px;
+    padding-bottom: 30px;
+   
+}
+.card-section .card{
+    padding: 30px 20px;
+    background: #800000;
+    align-items: center;
+    height: 40vh;
+}
+.card-section .card img{
+  width: 40%;
+  padding: 40px 0px;
+
+}
+.card-section .card h3{
+    font-size: 20px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+#badge{
+    width: 30%;
+}
+  .content-section{
+padding-left: 220px;
+margin-top: 50px;
+padding-bottom: 80px;
+ }
+  .top{
+    z-index: 1;
+    border-radius: 16px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.12);
+    display: flex;
+    margin-top: 20px;
+    width: 829px;
+    background: #e9e9e9;
+    opacity: 0.8;
+    flex-direction: column;
+    align-items: start;
+    color: #000;
+    padding: 32px 42px;
+  }
+  .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .section-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    
+    margin-top: 21px;
+  }
+  .bottom-img{
+    z-index: 0;
+    margin-top: -150px;
+    margin-left: 520px;
+  }
+  .b_img{
+    width: 75%;
+  }
+
+  .gallary-sectiion{
+    background: #f5ebeb;
+    padding: 50px 10px;
+  }
+  .gallary-sectiion .top_row{
+    padding-bottom: 20px;
+  }
+  .vitriers-title{
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .crd_btn{
+margin-left: 70px;
+  }
+
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    position: relative;
+    background: url(../img/product-card.png) center center no-repeat ;
+    background-size: cover;
+   height: 30vh;
+    width: 100%;
+    color: #fff;
+    margin-top: 2px;
+    padding: 12px 60px 159px;
+  }
+  .price-tag {
+    width: 30%;
+    border-radius: 18px;
+    background-color: #800000;
+    margin-top: 10px;
+    padding: 4px 18px;
+    margin-left: 156px;
+  }
+    .product-card {
+      padding: 0 0 100px 20px;
+    }
+    .price-tag {
+      margin-bottom: 10px;
+      padding: 0 20px;
+    }
+    .bottom_text{
+        margin-top: 15px;
+        color: #000;
+        font-weight: 600;
+        font-size: 14px;
+        margin-left: 10px ;
+        text-align: center;
+    }
+    .article-section{
+        background: #2c0000;
+        color: #fff;
+         padding: 20px 10px;
+    }
+    .accordion-section{
+        margin-top: 50px;
+        padding: 20px 10px;
+
+    }
+    .accordion-section .contact-button{       
+        padding:  10px;
+        background: #8f4000;
+        color: #fff;
+        border: 1px solid #8f4000;
+        border-radius: 2px;
+    }
+    .accordion{
+        margin-top: 20px;
+    }
+    .accordion-button {  
+    font-size: 16px;
+    font-weight: 600;
+    }
+    .brands-section{
+        margin-top: 80px;
+    }
+    .brand_row{
+      margin-top:20px ;
+    }
+
+    .contact-form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+        background: #f2f2f2;
+      }
+      .contact-heading {
+        color: #33414F;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 1.2;
+       
+      }
+      .input-row {
+        display: flex;
+        margin: 45px 0 0;
+        gap: 24px;
+        color: #6C757D;
+        flex-wrap: wrap;
+      }
+      .form-input {
+        border-radius: 4px;
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: start;
+        flex: 1;
+        padding: 7px 10px 8px 11px;
+        border: 1px solid #EEE;
+      }
+      .input-container {
+        width: 100%;
+        border: none;
+        padding: 1px 0;
+      }
+      .phone-input {
+        border-radius: 4px;
+        background-color: #FAFAFA;
+        display: flex;
+        margin-top: 15px;
+        width: 100%;
+        flex-direction: column;
+        color: #6C757D;
+        padding: 7px 10px 8px 11px;
+        border: 1px solid #EEE;
+      }
+      .message-area {
+        border-radius: 4px;
+        background-color: #FAFAFA;
+        min-height: 32px;
+        margin-top: 15px;
+        overflow: hidden;
+        color: #6C757D;
+        line-height: 1.5;
+        padding: 8px 436px 73px 11px;
+        border: 1px solid #EEE;
+        width: 100%;
+       
+      }
+      .file-upload {
+        border-radius: 4px;
+        background-color: #FAFAFA;
+        display: flex;
+        margin-top: 16px;
+        width: 100%;
+        align-items: center;
+        gap: 11px;      
+        line-height: 1.5;
+        padding: 3px 353px 3px 0;
+        border: 1px solid #EEE;
+      }
+      .file-button {
+        background-color: #E9ECEF;
+        color: #212529;
+        text-align: center;
+        padding: 5px 11px;
+      }
+      .file-label {
+        color: #33414F;
+      }
+      .submit-button {
+        border-radius: 3px;
+        background-color: #800000;
+        margin-top: 18px;
+        color: #FFF;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5;
+        padding: 10px 40px;
+        border: 2px solid #8F4000;
+        padding: 10px 20px;
+        width: 20%;
+      }
+      .form-control {
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: none;
+      }
+        .contact-form {
+          max-width: 100%;
+          margin-top: 40px;
+        }
+        .contact-heading {
+          max-width: 100%;
+        }
+        .input-row {
+          margin-top: 40px;
+          border: none;
+        }
+        .message-area {
+          max-width: 100%;
+          padding-right: 20px;
+        }
+        .file-upload {
+          padding-right: 20px;
+        }
+        
+      .map_box{
+        margin: 70px 0px 0px 80px;
+      }
+      .map_title{
+        padding-bottom:10px ;
+        text-align: center;
+      }
+      .map{
+        width: 100%;
+      }
+      footer{
+        padding: 15px 0px 10px;
+        background: #000000;
+        color: #CACACA;
+        font-size: 12px;
+        font-weight: 200;
+      }
